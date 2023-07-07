@@ -13,10 +13,10 @@ void swapcheck(int *arr[], int size,int *itter){
 
 
 
-for (int i = 0; i < size - 1; i++)
+for (int i = 0; i < size; i++)
 {
     int swaps = 0;
-    for(int j = 0;j < size - 1;j++){
+    for(int j = 0;j < size;j++){
         if (arr[j] > arr[j+1])
     {
         swap(&arr[j],&arr[j+1]);
